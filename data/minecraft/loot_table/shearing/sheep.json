@@ -1,0 +1,305 @@
+{
+  "type": "minecraft:shearing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:tag",
+              "expand": true,
+              "name": "randomloot:randomloot",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:sheep",
+                      "color": "white",
+                      "sheared": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:tag",
+              "expand": true,
+              "name": "randomloot:randomloot",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:sheep",
+                      "color": "orange",
+                      "sheared": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:tag",
+              "expand": true,
+              "name": "randomloot:randomloot",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:sheep",
+                      "color": "magenta",
+                      "sheared": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:tag",
+              "expand": true,
+              "name": "randomloot:randomloot",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:sheep",
+                      "color": "light_blue",
+                      "sheared": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:tag",
+              "expand": true,
+              "name": "randomloot:randomloot",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:sheep",
+                      "color": "yellow",
+                      "sheared": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:tag",
+              "expand": true,
+              "name": "randomloot:randomloot",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:sheep",
+                      "color": "lime",
+                      "sheared": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:tag",
+              "expand": true,
+              "name": "randomloot:randomloot",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:sheep",
+                      "color": "pink",
+                      "sheared": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:tag",
+              "expand": true,
+              "name": "randomloot:randomloot",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:sheep",
+                      "color": "gray",
+                      "sheared": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:tag",
+              "expand": true,
+              "name": "randomloot:randomloot",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:sheep",
+                      "color": "light_gray",
+                      "sheared": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:tag",
+              "expand": true,
+              "name": "randomloot:randomloot",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:sheep",
+                      "color": "cyan",
+                      "sheared": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:tag",
+              "expand": true,
+              "name": "randomloot:randomloot",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:sheep",
+                      "color": "purple",
+                      "sheared": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:tag",
+              "expand": true,
+              "name": "randomloot:randomloot",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:sheep",
+                      "color": "blue",
+                      "sheared": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:tag",
+              "expand": true,
+              "name": "randomloot:randomloot",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:sheep",
+                      "color": "brown",
+                      "sheared": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:tag",
+              "expand": true,
+              "name": "randomloot:randomloot",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:sheep",
+                      "color": "green",
+                      "sheared": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:tag",
+              "expand": true,
+              "name": "randomloot:randomloot",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:sheep",
+                      "color": "red",
+                      "sheared": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:tag",
+              "expand": true,
+              "name": "randomloot:randomloot",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:sheep",
+                      "color": "black",
+                      "sheared": false
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:shearing/sheep"
+}

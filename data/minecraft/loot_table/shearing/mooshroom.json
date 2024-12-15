@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:shearing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:tag",
+              "expand": true,
+              "name": "randomloot:randomloot",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:mooshroom",
+                      "variant": "red"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:tag",
+              "expand": true,
+              "name": "randomloot:randomloot",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type_specific": {
+                      "type": "minecraft:mooshroom",
+                      "variant": "brown"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:shearing/mooshroom"
+}
