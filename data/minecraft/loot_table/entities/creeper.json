@@ -46,6 +46,7 @@
       "entries": [
         {
           "type": "minecraft:tag",
+          "name": "randomloot:randomloot",
           "expand": true
         }
       ],
